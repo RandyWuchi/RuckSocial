@@ -1,0 +1,26 @@
+{
+  "name": "rucksoc",
+  "version": "1.0.0",
+  "description": "Social App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Randy Wuchi",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.21.1",
+    "apollo-server-express": "^2.21.1",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^1.25.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql": "^15.5.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.20",
+    "nodemailer": "^6.5.0",
+    "subscriptions-transport-ws": "^0.9.18",
+    "uuid": "^8.3.2"
+  }
+}
